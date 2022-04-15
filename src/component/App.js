@@ -1,12 +1,8 @@
-/* https://www.freecodecamp.org/news/how-to-make-an-image-search-app-in-react/ */
-
-
 import React from "react";
 import { useEffect, useState } from "react";
 
 const App = () => {
 
-    //const defaultImg = "Bike"
     const [img, setImg] = useState("")
     const [res, setRes] = useState([])
 
