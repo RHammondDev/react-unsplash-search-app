@@ -7,7 +7,7 @@ const App = () => {
     const [res, setRes] = useState([])
 
     const fetchRequest = async () => {
-        const Access_key = "D6WWHssanObs75SfSTRhSnBSTe0U9aSz5pjUfga-O6Y"
+        const Access_key = ""
         const data = await fetch(
             `https://api.unsplash.com/search/photos?page=1&query=${img || "Dirtbike"}&client_id=${Access_key}&per_page=20`
         );
